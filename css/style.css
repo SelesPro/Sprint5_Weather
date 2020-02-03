@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.ow-ico img {
+  width: 60%;
+  top: 1%;
+  
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+
+}
+.logo {
+  width: 8%;
+  position: relative;
+  top: 10%;
+  left: 1%;
+  margin-right: 5%;
+  margin-left: 25%;
+}
+
+#demo {
+  position: absolute;
+  left: 20%;
+  top: 3%;
+  overflow: hidden;
+  width: 80%;
+
+}
+
+.ow-row {
+
+  overflow: hidden;
+
+}
+
+.ow-row:last-child {
+  margin-bottom: 0;
+}
+
+.ow-ico {
+  line-height: 1.1em;
+}
+
+.ow-widget {
+  width: 70%;
+  border-radius: 2%;
+  background-color: #0d99acc0;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 2%;
+}
+
+.ow-widget .pull-left {
+  float: left;
+}
+
+.ow-widget .pull-right {
+  float: right;
+}
+
+.ow-city-name {
+  letter-spacing: 1px;
+  line-height: 1.111em;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20%;
+ 
+}
+
+.ow-ico-current {
+
+  width:25%;
+  margin-left: 20%;
+  text-align: center;
+
+}
+
+.ow-temp {
+  margin: 1%;
+  margin-left: 5%;
+}
+
+
+.ow-temp-current {
+
+  width: 250px;
+  height: 100px;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  left: 10%;
+ 
+
+}
+
+.ow-celsius {
+  font-size: 30px;
+
+}
+.ow-celsius-fore {
+  font-size: 15px;
+
+}
+
+.ow-current-desc {
+  line-height: 0.5em;
+  width: 100%;
+}
+
+.ow-forecast-item {
+  float: left;
+  width: calc(20% - 1px);
+  text-align: center;
+  border-right: 1px solid white;
+}
+
+.ow-forecast-item:last-child {
+  border-right: 0;
+}
+
+.ow-forecast-item .ow-ico-forecast {
+  font-size: 30px;
+  position: relative;
+  margin: 10px 0;
+  
+}
+
+.ow-forecast-item .ow-forecast-temp span {
+  display: inline-block;
+  margin: 0 5px;
+}
+.days{
+  color: rgb(8, 20, 180);
+}
+
+.ow-temp .pull-left {
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  
+}
+.minMax{
+  position: relative;
+
+}
